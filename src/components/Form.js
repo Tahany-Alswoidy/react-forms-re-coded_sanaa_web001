@@ -1,10 +1,15 @@
 import React from 'react';
 
-class Form extends React.Component {
-  state = {
-    firstName: "John",
-    lastName: "Henry"
+class LoginForm extends React.Component {
+  constructor() {
+    super();
+
+    this.state = {
+      username: '',
+      password: ''
+    };
   }
+
 
   handleFirstNameChange = event => {
     this.setState({
