@@ -44,7 +44,7 @@ class LoginForm extends React.Component {
           <button type="submit">Log in</button>
         </div>
       </form>
-    )
+    );
   }
 }
 
